@@ -8,10 +8,10 @@ void main() {
             decoration:TextDecoration.underline)
       );
 
-  //var img=Image.network('https://static1.dienanh.net/upload/202112/2bcb7c66-b253-405d-9091-1b16f5be79b0.jpg');
+  var img=Image.network('https://static1.dienanh.net/upload/202112/2bcb7c66-b253-405d-9091-1b16f5be79b0.jpg');
 
   var appBody = Center(
-    child: hiFlutter
+    child: img //hiFlutter
   );
 
   var appBar = AppBar(
