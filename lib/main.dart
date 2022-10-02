@@ -8,10 +8,14 @@ void main() {
             decoration:TextDecoration.underline)
       );
 
-  var img=Image.network('https://static1.dienanh.net/upload/202112/2bcb7c66-b253-405d-9091-1b16f5be79b0.jpg');
+  //var img=Image.network('https://static1.dienanh.net/upload/202112/2bcb7c66-b253-405d-9091-1b16f5be79b0.jpg');
 
-  var appBody = Center(
-    child: img //hiFlutter
+  var appBody = Container(
+      child: hiFlutter,
+      alignment: Alignment.topCenter,
+      margin: const EdgeInsets.all(50.0),
+      color: Colors.white,
+      padding: EdgeInsets.fromLTRB(30, 5, 30, 30),
   );
 
   var appBar = AppBar(
